@@ -18,6 +18,9 @@ main{
   position: relative;
   z-index: 2;
 }   
+h1{
+  color: #e6b553;
+}
 main::after{
   z-index: 3;
   content: "";
@@ -26,7 +29,7 @@ main::after{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
 } 
 main .container{
   position: relative;
@@ -35,7 +38,7 @@ main .container{
 }
 .funds{
   padding: 20px;
-  border: 4px solid red;
+  border: 4px solid #e6b553;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -51,21 +54,24 @@ main .container{
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 15px;
-  border: 4px solid #3f3f3f;
+  border: 4px solid #ffff8b;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.credit h4{
-  background-color: rgba(0, 0, 0, 0.6);
+.credit input{
+  display: block;
+  width: 85%;
+  background-color: rgba(0, 0, 0, 1);
   padding: 10px;
+  height: 40px;
   text-align: center;
-  border-radius: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
+  border-radius: 10px; 
+  margin: auto;
   margin-bottom: 30px;
-  color: greenyellow;
+  color: #ffd414;
+  border: 0px;
 }
 .credit .custom-control .custom-control-label::before{ 
-  background-color: #f7e16a;
+  background-color: greenyellow;
   border: 0px;
   border-radius: 0px;
 } 
@@ -73,7 +79,7 @@ main .container{
   margin-bottom: 20px !important;
 } 
 .credit .custom-control-label{
-  color: yellow;
+  color: greenyellow;
   font-style: italic;
   font-size: 18px;
 }
@@ -94,7 +100,7 @@ main .container{
 .btn-danger{
   margin-bottom: -60px;
   padding: 10px 30px;
-}
+} 
 
 @media only screen and (max-width: 1024px) { /* MOBILE */ 
   main{ 
