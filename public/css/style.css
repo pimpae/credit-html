@@ -97,10 +97,16 @@ main .container{
   font-style: normal;
   font-size: 18px;
 }
-.btn-danger{
+.btn{
   margin-bottom: -60px;
-  padding: 10px 30px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 } 
+.btn-success{ 
+  padding: 10px 35px;
+} 
+
 
 @media only screen and (max-width: 1024px) { /* MOBILE */ 
   main{ 
